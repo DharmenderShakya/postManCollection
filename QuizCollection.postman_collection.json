@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "6b6d3274-0a6f-41f9-bac3-06ede4833cd3",
+		"name": "QuizCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/creatquiz",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"question\": \"What is a correct syntax to output Hello World in Java?\",\r\n  \"options\": [\"console.writeline(Hello word)\", \"print(Hello word)\", \"System.out.println(Hello World)\", \"All Above\"],\r\n  \"rightAnswer\": 1,\r\n  \"startDate\": \"2023-05-27T03:50:00\",\r\n  \"endDate\": \"2023-05-26T04:10:00\"  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8081/creatquiz"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/getActivatedQuiz/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8081/getActivatedQuiz/2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/getResult/9",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/creatquiz",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
