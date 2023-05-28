@@ -41,10 +41,11 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8081/creatquiz",
+			"name": "http://localhost:8081/retrieveAllQuiz",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "http://localhost:8081/retrieveAllQuiz"
 			},
 			"response": []
 		}
